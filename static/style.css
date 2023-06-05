@@ -1,0 +1,85 @@
+*{   
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+}
+.heading{
+    text-align: center;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.arrow-1,.arrow-3{
+    text-align: center;
+    height:600px;
+}
+.processing{
+    height:250px;
+    margin-bottom:50px;
+    margin-top:50px;
+}
+.arrow-2,.arrow-4{
+    text-align: center;
+    height:600px;
+    transform: rotateY(-180deg)!important;
+}
+.component-margin{
+    margin-bottom:10px;
+    margin-top:10px; 
+}
+.prediction{
+    height:100px;
+    margin-bottom: 150px !important;
+}
+table{
+    border-collapse: separate;
+    border-spacing: 30px;
+    margin: auto;
+}
+.graph{
+    height:500px;
+}
+@media only screen and (max-width: 700px) {
+    img {
+      width:110%;
+    }
+    .select-graph button{
+        font-size:1.5vh;
+    }
+    label,input,.csv-file{
+        font-size:1.5vh;
+    }
+    .csv{
+        width:100%!important;
+    }
+    .csv-file{
+        width:20%;
+    }
+    .prediction{
+        margin:5px !important;
+        height:100px;
+        margin-bottom: 250px !important;
+    }
+    .g-btn  div{
+        margin-right: 2px!important;
+    }
+    .result{
+        margin : 0!important;
+        padding: 5px!important;
+    }
+  }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    height:1px;
+  }
+  ::-webkit-scrollbar-track {
+    background-image: linear-gradient(rgb(7, 89, 241),rgb(12, 252, 12));
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: black;
+  }
